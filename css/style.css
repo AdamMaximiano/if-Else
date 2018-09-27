@@ -1,0 +1,37 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: arial;
+}
+p{
+	margin: 0;
+}
+
+#container{
+	width: 960px;
+	margin: 0 auto;
+}
+#resultado{
+	padding: 10px;
+	background: #e1e1e1;
+	margin-top: 10px;
+	color: #ccc;
+}
+.aprovado{
+	background: #34A853 !important;
+	color: #FFF !important;
+	width: 100%;
+	padding: 10px;
+}
+.reprovado{
+	background: #EA4335 !important;
+	color: #FFF !important;
+	width: 100%;
+	padding: 10px;
+}
+.recuperacao{
+	background: #F48024 !important;
+	color: #FFF !important;
+	width: 100%;
+	padding: 10px;
+}
