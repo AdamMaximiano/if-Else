@@ -35,7 +35,7 @@ function conferirNota() {
 		document.getElementById("resultado").classList.add("aprovado");
 		document.getElementById("resultado").classList.remove("reprovado","recuperacao");
 		res="Aprovado";
-	} else if(nota>=40){
+	} else if(((nota>=40)&&(nota<60))){
 		res="Recuperação";
 		document.getElementById("resultado").classList.add("recuperacao");
 		document.getElementById("resultado").classList.remove("aprovado","reprovado");
@@ -47,23 +47,3 @@ function conferirNota() {
 	document.getElementById("resultado").innerHTML = res;
 }
 
-
-
-
-/*var v1 = prompt("Digite a Nota do Aluno");
-var res;
-
-if (v1 >= 60){
-	res = "Aprovado";
-	document.getElementById("nota").classList.add("aprovado");
-
-}else if(v1 >= 40){
-	res = "Recuperação";
-	document.getElementById("nota").classList.add("recuperacao");	
-}else{
-	res = "Reprovado";
-	document.getElementById("nota").classList.add("reprovado");	
-}
-
-document.getElementById("nota").innerHTML = res;	
-*/
